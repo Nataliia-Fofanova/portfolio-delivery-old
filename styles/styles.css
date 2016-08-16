@@ -1,0 +1,172 @@
+
+body{
+    width: 100%;
+    font: 14px/18px 'Times New Roman', Times, sens-serif;
+vertical-align: baseline;
+    color: #333;
+    background: url(../img/img2.jpg) no-repeat 50% 0;
+}
+
+header{
+    right: 10px;
+    width: 100%;
+    padding: 20px 0;
+}
+.logo{
+    float: left;
+    margin-left: 300px;
+    margin-top: -40px;
+}
+.logo img{
+    width: 170px;
+    height: 120px;
+    border-radius: 20%;
+}
+.menu{
+   
+    list-style: none;
+    margin-left: 80px; 
+    padding: 0;
+
+}
+.title h1, .title h2{
+    align-content: center;
+    text-align: center;
+    text-transform: uppercase;
+}
+p, a, h2, h1{
+    text-transform: uppercase;
+}
+.menu li{
+    display: inline-block;
+
+    margin-right: -505px;
+    margin-left: 500px;
+
+}
+.menu a{
+    text-transform: uppercase;
+    display: block;
+    padding: 10px 10px;
+    color: #333;
+    text-decoration: none;
+
+}
+.menu a:hover{
+    background: #e5e5e5;
+}
+.menu a:active{
+	background: #999;
+	color: #fff;
+}
+.menu a:visited{
+	color: #777;
+}
+
+.nav{
+ margin-top: 5px;
+    float: right;
+    padding-top: 5px;
+}
+.nav li{
+    float: right;
+    margin-right: 40px;
+}
+.nav a:hover{
+    color: darkslategrey;
+}
+.nav li:last-child{
+    margin-right: 0;
+}
+.nav a{
+    text-transform: uppercase;
+    font: 14px Arial, sans-serif;
+    color: #fff;
+}
+.home{
+    margin: 80px 40px;
+}
+.home p{
+	text-align: justify;
+	line-height: 18pt;
+}
+blockquote{
+	background: #ff7e00;
+	color: #666;
+	border: 2px dotted #666;
+	text-align: center;
+	font-size: 14px;
+	width: 30%;
+	padding:0;
+	margin:0;
+	border-radius: 15%;
+	
+}
+
+.contacts{
+   width: 100%;
+   margin: 30px;
+   padding: 10px;
+}
+.contacts .title{
+    margin: 40px;
+    font-weight: bold;
+    color: #333;
+}
+
+.contacts .item{
+    position: relative;
+    margin-bottom: 10px;
+    padding-left: 30px;
+}
+.contacts a{color: #125;}
+
+.icon-email a{
+    text-transform: lowercase;
+}
+ .left{
+    display: inline-block;
+	left: 50%;
+	padding: 40px 60px;
+}
+ .right {
+    display: inline-block;
+	position: absolute;
+	right: 20%;
+	padding: 60px 30px;
+}
+.company{
+    margin: 80px 40px;
+}
+.company h1{
+   text-align:  center;   
+}
+.company p{
+    margin: 15px;
+    line-height: 22px;
+    text-align: justify;
+    text-indent: 22px;
+}
+.company h2{
+    text-align: center;
+}
+.company article{
+	margin: 25px;
+	text-align: justify;
+	 -moz-column-width: 100px;  
+    -webkit-column-width: 100px;   
+    column-width: 100px; 
+	-webkit-column-gap: 30px;  
+    -moz-column-gap: 30px;  
+    column-gap: 30px;  
+	-moz-column-rule: 1px dotted #ccc;  
+    -webkit-column-rule: 1px dotted #ccc;  
+    column-rule: 1px dotted #ccc;  
+	-webkit-column-count:4;  
+    -moz-column-count:4;  
+    column-count:4;
+	}
+footer p{
+	text-align: center;
+	
+}
